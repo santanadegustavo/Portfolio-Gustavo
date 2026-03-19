@@ -52,3 +52,49 @@ a:hover{
     color: var(--cor-texto-sec);
     transition: color .7s;
 }
+
+
+main#sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    
+}
+
+div#container-main{
+    background-color: var(--cor-card);
+    max-width: 800px;
+    width: 100%;
+
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+    padding: 40px;
+}
+
+div#container-main{
+    /* display: flex;
+    flex-direction: column; */
+
+    padding: 30px;
+}
+
+h2.h2-titulo{
+    text-transform: uppercase;
+    color: var(--cor-texto);
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.texto{
+    color: var(--cor-texto-sec);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+
