@@ -55,5 +55,14 @@ a:hover{
 
 main{
     background-color: #22c55e;
-    color: #22c55e;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+div#conteudo-projeto{
+    background-color: #3b82f6;
 }
