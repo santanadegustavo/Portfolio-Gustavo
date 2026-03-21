@@ -113,21 +113,18 @@ button:hover {
 
 .contato-redes {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 10px;
 
-    color: var(--cor-texto);
+    gap: 25px;
+    padding-top: 25px;
 }
 
 .contato-redes a {
-    text-decoration: none;
-    font-weight: bold;
-
-    color: var(--cor-texto-sec);
+    
+    color: var(--cor-primaria);
+    font-size: 1.8em;
 }
 
 .contato-redes a:hover{
-    text-decoration: underline;
-    color: var(--cor-primaria);
+    color: var(--cor-texto-sec);
 }
