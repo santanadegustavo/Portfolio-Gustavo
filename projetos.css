@@ -53,14 +53,37 @@ a:hover{
     transition: color .7s;
 }
 
-main{
+main.projeto{
     color: white;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding: 60px 40px;
+    
     height: 90vh;
     gap: 40px;
+}
+
+.projeto-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#h1-projeto{
+    color: var(--cor-texto);
+}
+
+#texto{
+    color: var(--cor-texto-sec);
+    padding-top: 10px;
+}
+
+.projeto-container{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projeto-card {
@@ -77,7 +100,6 @@ main{
     justify-content: space-between;
 }
 
-
 .projeto-card:hover {
     transform: translateY(-8px);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
@@ -88,8 +110,8 @@ main{
 }
 
 .projeto-card p {
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.9em;
+    line-height: 1.3;
 }
 
 .projeto-card a {
