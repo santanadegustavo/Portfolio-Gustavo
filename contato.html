@@ -10,35 +10,57 @@
       <header id="cabecalho-principal">
         <nav id="menu-navegacao">
             <ul id="pai-lista-menu">
-                <li class="links"><a href="index.html" target="_self">Home</a></li> <!--Página Principal-->
+                <li class="links"><a href="index.html" target="_self">Home</a></li> 
 
-                <li class="links"><a href="sobre.html" target="_self">Sobre mim</a></li> <!--Página Sobre mim-->
+                <li class="links"><a href="sobre.html" target="_self">Sobre mim</a></li> 
 
-                <li class="links"><a href="projetos.html" target="_self">Projetos</a></li> <!--Página de Projetos-->
+                <li class="links"><a href="projetos.html" target="_self">Projetos</a></li> 
                 
-                <li class="links"><a href="" target="_self">Novidades</a></li> <!--Página de Novidades-->
+                <li class="links"><a href="" target="_self">Novidades</a></li> 
 
-                <li class="links"><a href="" target="_self">Contato</a></li> <!--Página Contatos-->
+                <li class="links"><a href="contato.html" target="_self">Contato</a></li> 
             </ul>
         </nav>
     </header> 
 
-    <main id="contato-principal">
-        <form action="#" id="form-contato">
-            <div id="botao-usuario" class="div-botao">
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" id="usuario">
-            </div>
 
-            <div id="botao-senha" class="div-botao">
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha">
-            </div>
+    <main class="contato-container">
 
-            <div id="botao">
-                <input type="submit" value="Enviar">
-            </div>
+    <h1 id="titulo-h1">Entre em contato comigo</h1>
+
+    <p class="contato-descricao" id="texto">
+        Se quiser falar comigo, tirar dúvidas ou conhecer mais sobre meu trabalho,
+        preencha o formulário ou acesse minhas redes sociais.
+    </p>
+
+    <section class="contato-conteudo">
+
+        <form class="contato-form">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+
         </form>
-    </main>
+
+        <div class="contato-redes">
+
+            <h2>Minhas redes</h2>
+
+            <a href="https://www.linkedin.com/in/gustavo-lima-23720422b/" target="_blank">Linkedin</a>
+            <a href="https://instagram.com/g_santanadl" target="_blank">Instagram</a>
+            <a href="mailto:santanagustavo902@gmail.com" target="_blank">Email</a>
+
+        </div>
+    </section>
+</main>
+
 </body>
 </html>
