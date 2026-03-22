@@ -58,7 +58,7 @@ main#corpo-principal{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 90vh;
+    min-height: 90vh;
     padding: 20px;
 }
 
@@ -100,4 +100,10 @@ p#p-home{
     color: var(--cor-texto-sec);
 }
 
-
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    background: var(--cor-card);
+    color: var(--cor-texto);
+}

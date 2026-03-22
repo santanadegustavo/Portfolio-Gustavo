@@ -5,13 +5,13 @@
 }
 
     :root {
-  --cor-fundo: #0f172a;        /* fundo geral (azul escuro suave) */
-  --cor-card: #1e293b;         /* caixas / seções */
-  --cor-primaria: #3b82f6;     /* azul destaque */
-  --cor-secundaria: #22c55e;   /* verde suave */
-  --cor-texto: #e2e8f0;        /* texto principal */
-  --cor-texto-sec: #94a3b8;    /* texto secundário */
-  --cor-borda: #334155;        /* bordas suaves */
+  --cor-fundo: #0f172a;
+  --cor-card: #1e293b;
+  --cor-primaria: #3b82f6;
+  --cor-secundaria: #22c55e;
+  --cor-texto: #e2e8f0;
+  --cor-texto-sec: #94a3b8;
+  --cor-borda: #334155;
 }
 
 body{
@@ -54,10 +54,12 @@ a:hover{
 }
 
 .contato-container {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 90vh;
 }
 
 #titulo-h1{
@@ -127,4 +129,12 @@ button:hover {
 
 .contato-redes a:hover{
     color: var(--cor-texto-sec);
+}
+
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    background: var(--cor-secundaria);
+    color: var(--cor-texto);
 }

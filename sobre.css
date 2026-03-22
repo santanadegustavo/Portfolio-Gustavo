@@ -58,8 +58,7 @@ main#sobre-mim{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 20px;
-    
+    margin: 50px;
 }
 
 div#container-main{
@@ -74,8 +73,6 @@ div#container-main{
 }
 
 div#container-main{
-    /* display: flex;
-    flex-direction: column; */
     padding: 30px;
 }
 
@@ -95,5 +92,11 @@ h2.h2-titulo{
     margin-bottom: 15px;
 }
 
-
-
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    background: var(--cor-card);
+    color: var(--cor-texto);
+    margin-top: 90px;
+}

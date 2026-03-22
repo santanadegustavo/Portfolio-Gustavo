@@ -130,3 +130,12 @@ main.projeto{
 .projeto-card a:hover {
     background-color: var(--cor-texto);
 }
+
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    background: var(--cor-card);
+    color: var(--cor-texto);
+    /* margin-top: 50px; */
+}
