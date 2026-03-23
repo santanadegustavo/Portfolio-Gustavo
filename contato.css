@@ -138,4 +138,8 @@ button:hover {
     padding: 15px;
     background: var(--cor-card);
     color: var(--cor-texto);
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

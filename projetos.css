@@ -82,9 +82,9 @@ main.projeto{
 
 .projeto-container{
     display: flex;
-    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 40px;
 }
 
 .projeto-card {
@@ -138,4 +138,8 @@ main.projeto{
     padding: 15px;
     background: var(--cor-card);
     color: var(--cor-texto);
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

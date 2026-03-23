@@ -100,4 +100,8 @@ h2.h2-titulo{
     background: var(--cor-card);
     color: var(--cor-texto);
     margin-top: 90px;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
