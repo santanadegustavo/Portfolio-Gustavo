@@ -136,6 +136,6 @@ button:hover {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 15px;
-    background: var(--cor-secundaria);
+    background: var(--cor-card);
     color: var(--cor-texto);
 }
